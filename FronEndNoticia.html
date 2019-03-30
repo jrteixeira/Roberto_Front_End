@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Noticias urgentes</title>
+<style>
+    .centralizadorTexto{
+        text-align:center;
+    }
+    .centralizadorbutton {
+  
+    margin:auto;
+}
+    h1 {
+        text-align:center;
+        color:blue;
+    }
+
+    #imagemcarro {
+        width:600px;
+    
+    }
+  
+#demo{
+  display: none;  
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.ex1 {display: none;}
+</style>
+</head>
+<body style="background-color:#bfd8f0;">
+<h1>Laclerc bate Vettel em formula 1 </h1>
+<img id="imagemcarro" src="d26ps-xwsaeo-n8.jpg" alt="F1" class="center">
+
+<p class= "centralizadorTexto">Leclerc bate Vettel e se torna o primeiro monegasco na história a conquistar pole na Fórmula 1 </p>
+
+<p class= "centralizadorTexto">Confira mais sobre a noticia clicando no link abaixo: </p>
+<!--<button type="button"
+onclick="document.getElementById('demo').style.display = 'block'">
+</button>
+-->
+<p id="demo">
+    <!----<iframe src="https://globoesporte.globo.com/motor/formula-1/noticia/leclerc-bate-vettel-e-se-torna-o-primeiro-monegasco-na-historia-a-conquistar-pole-na-formula-1.ghtml"></iframe>-->
+</p>
+<button class= "centralizadorbutton" type="button" onclick="document.getElementsByClassName('ex1')[0].style.display= 'block'">--Link de acesso--</button>
+<a class="ex1" style="color:red;" href="https://globoesporte.globo.com/motor/formula-1/noticia/leclerc-bate-vettel-e-se-torna-o-primeiro-monegasco-na-historia-a-conquistar-pole-na-formula-1.ghtml" target="_blank">Link da noticia </a>
+<p id="demo2">
+</p>
+</body>
+</html>
